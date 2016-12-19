@@ -18,7 +18,7 @@ Nummifier
      :alt: Updates
 
 
-Abymal Nummification of the Signifier
+Abymal Nummification of the Signifier or fun with numerical coincidence.
 
 
 * Free software: BSD license
@@ -28,7 +28,45 @@ Abymal Nummification of the Signifier
 Features
 --------
 
-* TODO
+* Compute the Qabbalistic nummification of any arbitrary string using the
+  English alpha.
+* Maintain a database of nummifications for finding synchronicities.
+
+Usage
+-----
+
+To find the nummification of a given string AND commit that string to your
+database type the following:
+
+.. code::
+
+    $ nummifier nummify --commit "discipline"
+    [13, 18, 28, 12, 18, 25, 21, 18, 23, 14]
+    190
+    10
+    1
+    
+    190=LIBERALISM
+    190=NIETZSCHE
+    190=DISCIPLINE
+    
+    10=SPINOZA
+    10=LIBERALISM
+    10=PLATO
+    10=NIETZSCHE
+    10=HEGEL
+
+    1=SPINOZA
+    1=LIBERALISM
+    1=PLATO
+    1=NIETZSCHE
+    1=HEGEL
+    1=SIGNIFIED
+    1=FREE ENTERPRISE
+    1=PREDICTION MARKET
+    1=RUSSIAN ROULETTE
+    1=DISCIPLINE
+
 
 Credits
 ---------

@@ -1,5 +1,10 @@
 # Python
 *.pyc
+*.egg*
+venv
 
 # Emacs
 *~
+
+# Misc
+*.db

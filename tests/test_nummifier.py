@@ -27,14 +27,11 @@ class TestNummifier(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_000_something(self):
-        pass
-
     def test_command_line_interface(self):
         runner = CliRunner()
-        result = runner.invoke(cli.main)
+        result = runner.invoke(cli.main, ["test"])
         assert result.exit_code == 0
-        assert 'nummifier.cli.main' in result.output
+        assert 'test' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
