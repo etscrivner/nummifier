@@ -18,7 +18,8 @@ Nummifier
      :alt: Updates
 
 
-Abymal Nummification of the Signifier or fun with numerical coincidence.
+Abymal Nummification of the Signifier or fun with numerical coincidence. Based
+on https://www.urbanomic.com/gematrix.html
 
 
 * Free software: BSD license
